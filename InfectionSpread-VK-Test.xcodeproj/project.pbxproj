@@ -166,7 +166,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E58ACC4267A24250024F0AE /* Build configuration list for PBXProject "sVirusSpread-VK-Test" */;
+			buildConfigurationList = 5E58ACC4267A24250024F0AE /* Build configuration list for PBXProject "InfectionSpread-VK-Test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -382,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E58ACC4267A24250024F0AE /* Build configuration list for PBXProject "sVirusSpread-VK-Test" */ = {
+		5E58ACC4267A24250024F0AE /* Build configuration list for PBXProject "InfectionSpread-VK-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E58ACEC267A24320024F0AE /* Debug */,
