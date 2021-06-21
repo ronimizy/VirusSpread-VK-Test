@@ -11,7 +11,7 @@ import SwiftUI
 struct InfectionSpread_VK_TestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ConfigurationView()
         }
     }
 }

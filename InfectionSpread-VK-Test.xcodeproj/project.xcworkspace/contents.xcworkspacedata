@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/george/Desktop/InfectionSpread-VK-Test/sVirusSpread-VK-Test.xcodeproj">
    </FileRef>
 </Workspace>

@@ -7,62 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E08DAFE2680EC3E00ED531B /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E08DAFD2680EC3E00ED531B /* View.swift */; };
 		5E58ACCD267A24250024F0AE /* InfectionSpread_VK_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58ACCC267A24250024F0AE /* InfectionSpread_VK_TestApp.swift */; };
 		5E58ACCF267A24250024F0AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58ACCE267A24250024F0AE /* ContentView.swift */; };
 		5E58ACD1267A24310024F0AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E58ACD0267A24310024F0AE /* Assets.xcassets */; };
 		5E58ACD4267A24310024F0AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E58ACD3267A24310024F0AE /* Preview Assets.xcassets */; };
-		5E58ACDF267A24320024F0AE /* InfectionSpread_VK_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58ACDE267A24320024F0AE /* InfectionSpread_VK_TestTests.swift */; };
-		5E58ACEA267A24320024F0AE /* InfectionSpread_VK_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58ACE9267A24320024F0AE /* InfectionSpread_VK_TestUITests.swift */; };
+		5E58ACF9267A246E0024F0AE /* Indiviual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58ACF8267A246E0024F0AE /* Indiviual.swift */; };
+		5E58ACFB267A254F0024F0AE /* MedicalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58ACFA267A254F0024F0AE /* MedicalState.swift */; };
+		5E58ACFD267A26C00024F0AE /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58ACFC267A26C00024F0AE /* Population.swift */; };
+		5E58AD00267A36D90024F0AE /* PopulationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58ACFF267A36D90024F0AE /* PopulationViewModel.swift */; };
+		5E58AD03267A3AB90024F0AE /* IndividualView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58AD02267A3AB90024F0AE /* IndividualView.swift */; };
+		5E58AD07267A3C5D0024F0AE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58AD06267A3C5D0024F0AE /* Color.swift */; };
+		5E58AD09267A3E480024F0AE /* PopulationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58AD08267A3E480024F0AE /* PopulationView.swift */; };
+		5E58AD0B267A5E180024F0AE /* Virus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58AD0A267A5E170024F0AE /* Virus.swift */; };
+		5E58AD25268093580024F0AE /* ConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E58AD24268093580024F0AE /* ConfigurationView.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5E58ACDB267A24320024F0AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E58ACC1267A24250024F0AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E58ACC8267A24250024F0AE;
-			remoteInfo = "InfectionSpread-VK-Test";
-		};
-		5E58ACE6267A24320024F0AE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5E58ACC1267A24250024F0AE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5E58ACC8267A24250024F0AE;
-			remoteInfo = "InfectionSpread-VK-Test";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		5E08DAFD2680EC3E00ED531B /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 		5E58ACC9267A24250024F0AE /* InfectionSpread-VK-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InfectionSpread-VK-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E58ACCC267A24250024F0AE /* InfectionSpread_VK_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectionSpread_VK_TestApp.swift; sourceTree = "<group>"; };
 		5E58ACCE267A24250024F0AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5E58ACD0267A24310024F0AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E58ACD3267A24310024F0AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E58ACD5267A24310024F0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E58ACDA267A24320024F0AE /* InfectionSpread-VK-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InfectionSpread-VK-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E58ACDE267A24320024F0AE /* InfectionSpread_VK_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectionSpread_VK_TestTests.swift; sourceTree = "<group>"; };
-		5E58ACE0267A24320024F0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5E58ACE5267A24320024F0AE /* InfectionSpread-VK-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "InfectionSpread-VK-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E58ACE9267A24320024F0AE /* InfectionSpread_VK_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfectionSpread_VK_TestUITests.swift; sourceTree = "<group>"; };
-		5E58ACEB267A24320024F0AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E58ACF8267A246E0024F0AE /* Indiviual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indiviual.swift; sourceTree = "<group>"; };
+		5E58ACFA267A254F0024F0AE /* MedicalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicalState.swift; sourceTree = "<group>"; };
+		5E58ACFC267A26C00024F0AE /* Population.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
+		5E58ACFF267A36D90024F0AE /* PopulationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationViewModel.swift; sourceTree = "<group>"; };
+		5E58AD02267A3AB90024F0AE /* IndividualView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualView.swift; sourceTree = "<group>"; };
+		5E58AD06267A3C5D0024F0AE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5E58AD08267A3E480024F0AE /* PopulationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulationView.swift; sourceTree = "<group>"; };
+		5E58AD0A267A5E170024F0AE /* Virus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Virus.swift; sourceTree = "<group>"; };
+		5E58AD24268093580024F0AE /* ConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5E58ACC6267A24250024F0AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E58ACD7267A24320024F0AE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E58ACE2267A24320024F0AE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,9 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				5E58ACCB267A24250024F0AE /* InfectionSpread-VK-Test */,
-				5E58ACDD267A24320024F0AE /* InfectionSpread-VK-TestTests */,
-				5E58ACE8267A24320024F0AE /* InfectionSpread-VK-TestUITests */,
-				5E58ACCA267A24250024F0AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,15 +64,18 @@
 			isa = PBXGroup;
 			children = (
 				5E58ACC9267A24250024F0AE /* InfectionSpread-VK-Test.app */,
-				5E58ACDA267A24320024F0AE /* InfectionSpread-VK-TestTests.xctest */,
-				5E58ACE5267A24320024F0AE /* InfectionSpread-VK-TestUITests.xctest */,
 			);
 			name = Products;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5E58ACCB267A24250024F0AE /* InfectionSpread-VK-Test */ = {
 			isa = PBXGroup;
 			children = (
+				5E58AD04267A3C310024F0AE /* Extensions */,
+				5E58AD01267A3AA50024F0AE /* Views */,
+				5E58ACFE267A36C90024F0AE /* ViewModels */,
+				5E58ACF7267A245E0024F0AE /* Models */,
 				5E58ACCC267A24250024F0AE /* InfectionSpread_VK_TestApp.swift */,
 				5E58ACCE267A24250024F0AE /* ContentView.swift */,
 				5E58ACD0267A24310024F0AE /* Assets.xcassets */,
@@ -112,22 +93,43 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5E58ACDD267A24320024F0AE /* InfectionSpread-VK-TestTests */ = {
+		5E58ACF7267A245E0024F0AE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5E58ACDE267A24320024F0AE /* InfectionSpread_VK_TestTests.swift */,
-				5E58ACE0267A24320024F0AE /* Info.plist */,
+				5E58ACF8267A246E0024F0AE /* Indiviual.swift */,
+				5E58ACFA267A254F0024F0AE /* MedicalState.swift */,
+				5E58ACFC267A26C00024F0AE /* Population.swift */,
+				5E58AD0A267A5E170024F0AE /* Virus.swift */,
+				5E58ACCA267A24250024F0AE /* Products */,
 			);
-			path = "InfectionSpread-VK-TestTests";
+			path = Models;
 			sourceTree = "<group>";
 		};
-		5E58ACE8267A24320024F0AE /* InfectionSpread-VK-TestUITests */ = {
+		5E58ACFE267A36C90024F0AE /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				5E58ACE9267A24320024F0AE /* InfectionSpread_VK_TestUITests.swift */,
-				5E58ACEB267A24320024F0AE /* Info.plist */,
+				5E58ACFF267A36D90024F0AE /* PopulationViewModel.swift */,
 			);
-			path = "InfectionSpread-VK-TestUITests";
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5E58AD01267A3AA50024F0AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E58AD02267A3AB90024F0AE /* IndividualView.swift */,
+				5E58AD08267A3E480024F0AE /* PopulationView.swift */,
+				5E58AD24268093580024F0AE /* ConfigurationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E58AD04267A3C310024F0AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E58AD06267A3C5D0024F0AE /* Color.swift */,
+				5E08DAFD2680EC3E00ED531B /* View.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,42 +152,6 @@
 			productReference = 5E58ACC9267A24250024F0AE /* InfectionSpread-VK-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5E58ACD9267A24320024F0AE /* InfectionSpread-VK-TestTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E58ACF1267A24320024F0AE /* Build configuration list for PBXNativeTarget "InfectionSpread-VK-TestTests" */;
-			buildPhases = (
-				5E58ACD6267A24320024F0AE /* Sources */,
-				5E58ACD7267A24320024F0AE /* Frameworks */,
-				5E58ACD8267A24320024F0AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E58ACDC267A24320024F0AE /* PBXTargetDependency */,
-			);
-			name = "InfectionSpread-VK-TestTests";
-			productName = "InfectionSpread-VK-TestTests";
-			productReference = 5E58ACDA267A24320024F0AE /* InfectionSpread-VK-TestTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		5E58ACE4267A24320024F0AE /* InfectionSpread-VK-TestUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E58ACF4267A24320024F0AE /* Build configuration list for PBXNativeTarget "InfectionSpread-VK-TestUITests" */;
-			buildPhases = (
-				5E58ACE1267A24320024F0AE /* Sources */,
-				5E58ACE2267A24320024F0AE /* Frameworks */,
-				5E58ACE3267A24320024F0AE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5E58ACE7267A24320024F0AE /* PBXTargetDependency */,
-			);
-			name = "InfectionSpread-VK-TestUITests";
-			productName = "InfectionSpread-VK-TestUITests";
-			productReference = 5E58ACE5267A24320024F0AE /* InfectionSpread-VK-TestUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,17 +164,9 @@
 					5E58ACC8267A24250024F0AE = {
 						CreatedOnToolsVersion = 12.5;
 					};
-					5E58ACD9267A24320024F0AE = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 5E58ACC8267A24250024F0AE;
-					};
-					5E58ACE4267A24320024F0AE = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = 5E58ACC8267A24250024F0AE;
-					};
 				};
 			};
-			buildConfigurationList = 5E58ACC4267A24250024F0AE /* Build configuration list for PBXProject "InfectionSpread-VK-Test" */;
+			buildConfigurationList = 5E58ACC4267A24250024F0AE /* Build configuration list for PBXProject "sVirusSpread-VK-Test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,8 +180,6 @@
 			projectRoot = "";
 			targets = (
 				5E58ACC8267A24250024F0AE /* InfectionSpread-VK-Test */,
-				5E58ACD9267A24320024F0AE /* InfectionSpread-VK-TestTests */,
-				5E58ACE4267A24320024F0AE /* InfectionSpread-VK-TestUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +194,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E58ACD8267A24320024F0AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E58ACE3267A24320024F0AE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,41 +201,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E58AD09267A3E480024F0AE /* PopulationView.swift in Sources */,
 				5E58ACCF267A24250024F0AE /* ContentView.swift in Sources */,
+				5E58AD25268093580024F0AE /* ConfigurationView.swift in Sources */,
+				5E58ACFB267A254F0024F0AE /* MedicalState.swift in Sources */,
+				5E58AD0B267A5E180024F0AE /* Virus.swift in Sources */,
 				5E58ACCD267A24250024F0AE /* InfectionSpread_VK_TestApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E58ACD6267A24320024F0AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E58ACDF267A24320024F0AE /* InfectionSpread_VK_TestTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5E58ACE1267A24320024F0AE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5E58ACEA267A24320024F0AE /* InfectionSpread_VK_TestUITests.swift in Sources */,
+				5E58AD03267A3AB90024F0AE /* IndividualView.swift in Sources */,
+				5E58ACF9267A246E0024F0AE /* Indiviual.swift in Sources */,
+				5E08DAFE2680EC3E00ED531B /* View.swift in Sources */,
+				5E58AD07267A3C5D0024F0AE /* Color.swift in Sources */,
+				5E58ACFD267A26C00024F0AE /* Population.swift in Sources */,
+				5E58AD00267A36D90024F0AE /* PopulationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		5E58ACDC267A24320024F0AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E58ACC8267A24250024F0AE /* InfectionSpread-VK-Test */;
-			targetProxy = 5E58ACDB267A24320024F0AE /* PBXContainerItemProxy */;
-		};
-		5E58ACE7267A24320024F0AE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5E58ACC8267A24250024F0AE /* InfectionSpread-VK-Test */;
-			targetProxy = 5E58ACE6267A24320024F0AE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5E58ACEC267A24320024F0AE /* Debug */ = {
@@ -456,94 +379,10 @@
 			};
 			name = Release;
 		};
-		5E58ACF2267A24320024F0AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9TRZ2ZKWPH;
-				INFOPLIST_FILE = "InfectionSpread-VK-TestTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ronimizy.InfectionSpread-VK-TestTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfectionSpread-VK-Test.app/InfectionSpread-VK-Test";
-			};
-			name = Debug;
-		};
-		5E58ACF3267A24320024F0AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9TRZ2ZKWPH;
-				INFOPLIST_FILE = "InfectionSpread-VK-TestTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ronimizy.InfectionSpread-VK-TestTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfectionSpread-VK-Test.app/InfectionSpread-VK-Test";
-			};
-			name = Release;
-		};
-		5E58ACF5267A24320024F0AE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9TRZ2ZKWPH;
-				INFOPLIST_FILE = "InfectionSpread-VK-TestUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ronimizy.InfectionSpread-VK-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "InfectionSpread-VK-Test";
-			};
-			name = Debug;
-		};
-		5E58ACF6267A24320024F0AE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9TRZ2ZKWPH;
-				INFOPLIST_FILE = "InfectionSpread-VK-TestUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ronimizy.InfectionSpread-VK-TestUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "InfectionSpread-VK-Test";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E58ACC4267A24250024F0AE /* Build configuration list for PBXProject "InfectionSpread-VK-Test" */ = {
+		5E58ACC4267A24250024F0AE /* Build configuration list for PBXProject "sVirusSpread-VK-Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E58ACEC267A24320024F0AE /* Debug */,
@@ -557,24 +396,6 @@
 			buildConfigurations = (
 				5E58ACEF267A24320024F0AE /* Debug */,
 				5E58ACF0267A24320024F0AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5E58ACF1267A24320024F0AE /* Build configuration list for PBXNativeTarget "InfectionSpread-VK-TestTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E58ACF2267A24320024F0AE /* Debug */,
-				5E58ACF3267A24320024F0AE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5E58ACF4267A24320024F0AE /* Build configuration list for PBXNativeTarget "InfectionSpread-VK-TestUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E58ACF5267A24320024F0AE /* Debug */,
-				5E58ACF6267A24320024F0AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
